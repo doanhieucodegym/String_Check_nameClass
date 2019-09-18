@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check _Class Name</title>
+</head>
+<body>
+<script>
+    function check_NameClass(str) {
+        let regxn = /^[CAP][0-9]{4,}[GHIKLM]$/;
+        if(regxn.test(str)){
+            document.write("Class invalid"+'</br>');
+        }else{
+            document.write(" Not Class invalid"+'</br>');
+        }
+
+    }
+    check_NameClass("C0318K");
+    check_NameClass("M0318G");
+
+
+
+</script>
+</body>
+</html>
